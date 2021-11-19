@@ -6,7 +6,18 @@ body {
 
 .header {
   height: 75px;
-  background-color: #343a40;
+  background: #fe8c00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f83600,
+    #fe8c00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f83600,
+    #fe8c00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   position: fixed;
@@ -32,55 +43,82 @@ body {
 }
 
 .main {
-  background-color: #1abc9c;
+  background-color: #fafafa;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 20px;
+
+  height: 80vh;
+  width: auto;
+  background-image: url(./assets/camino.jpg);
+  background-size: 50vw 50vh;
+  background-attachment: fixed;
+  margin: 0;
 }
 
 .corredor {
+  margin-top: 65px;
   width: 540px;
-  height: 540px;
+  height: 538px;
   display: inline-block;
 }
 
 .principal1 {
-  color: #343a40;
   font-family: "montserrat", sans-serif;
   text-align: center;
+  color: #f83600;
+  font-size: 50px;
 }
 
 hr {
   width: 1000px;
+  height: 10px;
+  background: #fe8c00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f83600,
+    #fe8c00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f83600,
+    #fe8c00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .principal {
   display: inline-block;
-  margin-top: 5px;
+  margin-top: 30px;
   margin-right: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 img {
   width: 350px;
   height: 210px;
+  margin: 20px;
   display: inline-block;
 }
 
 .about {
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
-  background-color: #1abc9c;
+  background: #fe8c00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f83600,
+    #fe8c00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f83600,
+    #fe8c00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   text-align: center;
   padding-top: 30px;
 }
-
-hr {
-  width: 1250px;
-}
-
+/*Cambiar esta class*/
 .parrafos {
   display: inline-block;
   text-align: left;
@@ -101,7 +139,8 @@ hr {
 }
 
 form {
-  width: 550px;
+  height: 65vh;
+  width: 35vw;
   margin: auto;
   background: rgba(0, 0, 0, 0.4);
   padding: 10px 20px;
@@ -115,7 +154,7 @@ a {
   color: #fff;
   text-align: center;
   margin: 0;
-  font-size: 30px;
+  /*font-size: 30px;*/
   margin-bottom: 20px;
   text-decoration: none;
   /*centrar inicio y contacto*/
@@ -126,5 +165,17 @@ textarea {
   width: 100%;
   margin-bottom: 20px;
   padding: 7px;
+  color: #f83600;
   box-sizing: border-box;
+  border-color: #fe8c00; /* fallback for old browsers */
+  border-color: -webkit-linear-gradient(
+    to right,
+    #f83600,
+    #fe8c00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  border-color: linear-gradient(
+    to right,
+    #f83600,
+    #fe8c00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
