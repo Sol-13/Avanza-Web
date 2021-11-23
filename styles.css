@@ -25,9 +25,12 @@ body {
 }
 
 .titulo {
-  margin-left: 200px;
-  margin-right: 500px;
-  display: inline-block;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 30%;
 }
 
 .menu {
@@ -67,7 +70,7 @@ body {
   font-family: "montserrat", sans-serif;
   text-align: center;
   color: #f83600;
-  font-size: 50px;
+  /*font-size: 50px;*/
 }
 
 hr {
@@ -87,10 +90,14 @@ hr {
 }
 
 .principal {
-  display: inline-block;
+  display: flex;
   margin-top: 30px;
   margin-right: 20px;
   margin-bottom: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .destacar {
@@ -196,8 +203,10 @@ textarea {
 }
 
 .icon {
-  width: 350px;
-  height: 210px;
-  margin: 20px;
-  display: inline-block;
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  display: grid;
+  justify-content: center;
+  align-content: space-around;
 }
