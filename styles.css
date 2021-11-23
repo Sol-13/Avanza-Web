@@ -8,10 +8,11 @@ body {
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   position: fixed;
+  height: 9%;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(20px);
-  border: solid 1px rgba(255, 255, 255, 0.5);
+  border: solid 0.1px rgba(255, 255, 255, 0.4);
   border-radius: 5px;
   text-decoration: none;
 }
@@ -102,21 +103,10 @@ h1 {
   padding: 20px;
 }
 
-.about {
+.footer {
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
-  background: #fe8c00; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #f83600,
-    #fe8c00
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #f83600,
-    #fe8c00
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background-color: #f83600;
   text-align: center;
   padding-top: 30px;
 }
@@ -189,4 +179,43 @@ textarea {
   display: flex;
   justify-content: end;
   align-content: space-around;
+}
+
+/********KIT********/
+.kit-ubicar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+h3 {
+  color: #f83600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.camiseta {
+  height: 50%;
+  width: 50%;
+}
+
+/*******INFORMACION********/
+
+.info {
+  background-image: url(./assets/20k.png);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+/******FOTOS******/
+.fotos {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
 }
