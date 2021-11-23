@@ -93,13 +93,6 @@ hr {
   margin-bottom: 10px;
 }
 
-/*img {
-  width: 350px;
-  height: 210px;
-  margin: 20px;
-  display: inline-block;
-}*/
-
 .destacar {
   width: 95vw;
   margin-left: 2.5vw;
@@ -200,4 +193,11 @@ textarea {
     #f83600,
     #fe8c00
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.icon {
+  width: 350px;
+  height: 210px;
+  margin: 20px;
+  display: inline-block;
 }
