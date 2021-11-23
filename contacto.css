@@ -1,0 +1,50 @@
+/*Estilos de Contacto*/
+
+.fondo {
+  background-image: url(./assets/sendero.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+form {
+  height: 65vh;
+  width: 35vw;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 40px;
+  border-radius: 7px;
+}
+
+h2,
+a {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  /*font-size: 30px;*/
+  margin-bottom: 20px;
+  text-decoration: none;
+  /*centrar inicio y contacto*/
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  color: #f83600;
+  box-sizing: border-box;
+  border-color: #fe8c00; /* fallback for old browsers */
+  border-color: -webkit-linear-gradient(
+    to right,
+    #f83600,
+    #fe8c00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  border-color: linear-gradient(
+    to right,
+    #f83600,
+    #fe8c00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
