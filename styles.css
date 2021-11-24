@@ -20,9 +20,13 @@ h1 {
 }
 header {
   background-color: #007cba;
-  height: 8vh;
+  height: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  align-items: center;
 }
 
 header ul {
@@ -66,12 +70,12 @@ label {
 
 /* Estilo del boton cuando se pasa el mouse por encima*/
 label:hover {
-  background: #007cba;
+  background: #1eabf1;
 }
 
 /* Estilo del boton cuando el menú está expandido*/
 input:checked ~ label {
-  background: #007cba;
+  background: #1eabf1;
 }
 
 ul {
@@ -82,7 +86,7 @@ ul {
 
 li {
   display: block;
-  background: #007cba;
+  background: #1eabf1;
   margin: 0;
   padding: 10px;
   list-style: none;
