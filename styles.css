@@ -87,11 +87,11 @@ ul {
 
 li {
   display: block;
-  background: #1eabf1;
+  /*background: #1eabf1;*/
   margin: 0;
   padding: 10px;
   list-style: none;
-  border-bottom: 1px solid #0a5175;
+  /* border-bottom: 1px solid #0a5175;*/
 }
 
 /*Estilo cuando el mouse pasa encima de cada link del menu*/
@@ -128,25 +128,60 @@ li:hover {
 }
 
 /**********ESTILOS DE SPONSORS*************/
-.principal {
-  display: flex;
-  margin-right: 20px;
-  margin-bottom: 10px;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+.slider {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
 }
-
-.icon {
-  width: 200px;
-  height: 150px;
-  margin: 10px;
+.slider ul {
   display: flex;
-  justify-content: end;
-  align-content: space-around;
+  animation: cambio 25s infinite alternate linear;
+  width: 400%;
 }
+.slider li {
+  width: 10%;
+  list-style: none;
+}
+.slider img {
+  width: 250px;
+  height: 200px;
+}
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
 
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .slider,
+  .slider ul,
+  .slider img {
+    height: 100vh;
+  }
+}
 /***************ESTILOS DEL FOOTER********************/
 .footer {
   display: flex;
