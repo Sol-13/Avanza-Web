@@ -141,8 +141,9 @@ li:hover {
   align-items: center;
 }
 /**************ARREGLAR ICONOS DE LAS REDES SOCIALES***************/
-.iconos {
+.fab {
   text-decoration: none;
+  color: #007cba;
 }
 /*Cambiar esta class*/
 .parrafos {
