@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@0,200;0,300;0,500;0,600;1,100;1,200;1,300;1,500&family=Raleway:ital,wght@0,400;0,500;1,400&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /*Estilo del menu hamburguesa*/
@@ -101,6 +100,11 @@ li:hover {
 
 /*---------------------------------------------------------*/
 .main {
+  background-image: url(./assets/galeria/agua.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+
   display: flex;
   text-align: center;
   height: auto;
@@ -196,7 +200,7 @@ li:hover {
   flex-wrap: nowrap;
   align-content: center;
 }
-/**************ARREGLAR ICONOS DE LAS REDES SOCIALES***************/
+/********ICONOS DE LAS REDES SOCIALES***************/
 .fab {
   text-decoration: none;
   color: #007cba;
@@ -210,18 +214,54 @@ li:hover {
   margin-left: 50px;
 }
 
-/*Estilos de Informacion*/
-
 /*******INFORMACION********/
 
-.ryd {
+.info {
+  background-color: #007cba;
+  height: auto;
   display: flex;
-  background-color: coral;
   flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 50px;
+}
+
+.centrarInfo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #007cba;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.ubicarInfo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.ubicarInfo2 {
+  display: flex;
+  justify-content: center;
+}
+
+/*
+.ryd {
+  height: 50%;
+  width: max-content;
+  display: flex;
+  background-color: coral; 
+  flex-direction: column;
   flex-wrap: nowrap;
   align-content: center;
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
 }
 
 .cyr {
@@ -232,3 +272,4 @@ li:hover {
   justify-content: space-around;
   align-items: center;
 }
+*/
