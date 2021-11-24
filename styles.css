@@ -1,56 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
-body {
-  margin: 0;
-}
-
-.header {
-  color: #000000;
-  font-family: "Montserrat", sans-serif;
-  position: fixed;
-  height: 9%;
-  width: 100%;
-  /* background-color: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(20px);
-  border: solid 0.1px rgba(255, 255, 255, 0.4);
-  border-radius: 5px;
-  text-decoration: none;*/
-}
-
-h1 {
-  margin-top: auto;
-  font-size: 50px;
-}
-
-.titulo {
-  color: #000000;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
-
-.menu {
-  position: absolute;
-  top: 30px;
-  right: 20px;
-}
-.item {
-  color: #000000;
-  text-decoration: none;
-  margin-right: 10px;
-  display: inline-block;
-}
-
-/*Estilo del menu hamburguesa*/
 * {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
 }
 
+/*Estilo del menu hamburguesa*/
+h1 {
+  margin-top: auto;
+  font-size: 50px;
+}
+
+.item {
+  color: #000000;
+  text-decoration: none;
+  margin-right: 10px;
+  display: inline-block;
+}
 header {
   background-color: #007cba;
   height: 8vh;
@@ -129,29 +96,20 @@ li:hover {
 
 /*---------------------------------------------------------*/
 .main {
-  color: #000000;
-  font-family: "Montserrat", sans-serif;
   text-align: center;
-  height: 85vh;
+  height: auto;
   width: auto;
 }
 
 .avanza-20k {
-  margin-top: 80px;
-  width: 540px;
-  height: 600px;
+  width: 450px;
+  height: 500px;
   display: inline-block;
 }
 
-.principal1 {
-  font-family: "montserrat", sans-serif;
-  text-align: center;
-  color: #f83600;
-}
-
+/**********ESTILOS DE SPONSORS*************/
 .principal {
   display: flex;
-  margin-top: 30px;
   margin-right: 20px;
   margin-bottom: 10px;
   flex-wrap: wrap;
@@ -160,12 +118,16 @@ li:hover {
   justify-content: space-around;
 }
 
-.flex {
+.icon {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
   display: flex;
-  justify-content: space-between;
-  padding: 20px;
+  justify-content: end;
+  align-content: space-around;
 }
 
+/***************ESTILOS DEL FOOTER********************/
 .footer {
   display: flex;
   text-align: center;
@@ -178,6 +140,10 @@ li:hover {
   justify-content: space-around;
   align-items: center;
 }
+/**************ARREGLAR ICONOS DE LAS REDES SOCIALES***************/
+.iconos {
+  text-decoration: none;
+}
 /*Cambiar esta class*/
 .parrafos {
   display: inline-block;
@@ -188,15 +154,6 @@ li:hover {
 }
 
 /*Estilos de Informacion*/
-
-.icon {
-  width: 200px;
-  height: 150px;
-  margin: 10px;
-  display: flex;
-  justify-content: end;
-  align-content: space-around;
-}
 
 /********KIT********/
 .kit-ubicar {
