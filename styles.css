@@ -167,25 +167,6 @@ li:hover {
 
 /*Estilos de Informacion*/
 
-/********KIT********/
-.kit-ubicar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  align-content: center;
-}
-
-h3 {
-  color: #f83600;
-  font-family: "Montserrat", sans-serif;
-}
-
-.camiseta {
-  height: 50%;
-  width: 50%;
-}
-
 /*******INFORMACION********/
 
 .ryd {
@@ -201,18 +182,8 @@ h3 {
 .cyr {
   display: flex;
   background-color: blueviolet;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  flex-direction: column;
   align-content: center;
-  justify-content: space-between;
-}
-/******FOTOS******/
-.fotos {
-  width: 20px;
-  height: 20px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: space-around;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
 }
