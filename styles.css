@@ -100,15 +100,21 @@ li:hover {
 
 /*---------------------------------------------------------*/
 .main {
+  display: flex;
   text-align: center;
   height: auto;
   width: auto;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
 }
 
-.avanza-20k {
-  width: 450px;
-  height: 500px;
-  display: inline-block;
+.fyl {
+  background-color: #f83600;
+}
+
+.distancias {
+  background-color: blue;
 }
 
 /**********ESTILOS DE SPONSORS*************/
@@ -140,9 +146,10 @@ li:hover {
   background-color: #000000;
   padding-top: 30px;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: nowrap;
+  align-content: center;
 }
 /**************ARREGLAR ICONOS DE LAS REDES SOCIALES***************/
 .fab {
@@ -181,13 +188,24 @@ h3 {
 
 /*******INFORMACION********/
 
-.info {
-  background-image: url(./assets/20k.png);
-  background-size: 100vw 100vh;
-  background-attachment: fixed;
-  margin: 0;
+.ryd {
+  display: flex;
+  background-color: coral;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
 }
 
+.cyr {
+  display: flex;
+  background-color: blueviolet;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+}
 /******FOTOS******/
 .fotos {
   width: 20px;
