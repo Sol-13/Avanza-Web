@@ -100,11 +100,11 @@ li:hover {
 
 /*---------------------------------------------------------*/
 .main {
-  background-image: url(./assets/galeria/agua.jpg);
+  /* background-image: url(./assets/galeria/agua.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
   margin: 0;
-
+*/
   display: flex;
   text-align: center;
   height: auto;
