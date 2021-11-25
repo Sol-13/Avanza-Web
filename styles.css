@@ -251,25 +251,22 @@ h2 {
   justify-content: center;
 }
 
-/*
-.ryd {
-  height: 50%;
-  width: max-content;
+.resaltar {
   display: flex;
-  background-color: coral; 
-  flex-direction: column;
+  font-weight: bold;
+  color: rgb(50, 54, 57);
+  flex-direction: row;
   flex-wrap: nowrap;
+  justify-content: space-evenly;
   align-content: center;
-  justify-content: space-around;
   align-items: baseline;
 }
 
-.cyr {
+span {
   display: flex;
-  background-color: blueviolet;
-  flex-direction: column;
-  align-content: center;
-  justify-content: space-around;
   align-items: center;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
 }
-*/
