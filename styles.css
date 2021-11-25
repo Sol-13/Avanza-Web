@@ -179,18 +179,29 @@ li:hover {
 }
 /***************ESTILOS DEL FOOTER********************/
 .footer {
-  display: flex;
+  /* display: flex;
   text-align: center;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
-  background-color: #000000;
+
   padding-top: 30px;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
+  align-content: center;*/
+  background-color: #000000;
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: dense;
+  grid-auto-rows: 20rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
   align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: start;
 }
+
 /********ICONOS DE LAS REDES SOCIALES***************/
 .fab {
   text-decoration: none;

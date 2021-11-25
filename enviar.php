@@ -15,7 +15,7 @@ $message .= "Teléfono de contacto: " . $phone . " \r\n";
 $message .= "Mensaje: " . $_POST['message'] . " \r\n";
 $message .= "Enviado el: " . date('d/m/Y', time());
 
-$para = 'escribeaquitucorreo@hotmail.com'; /*pedir mail de avanza*/
+$para = 'avanza@live.com.ar'; /*pedir mail de avanza*/
 $asunto = 'Mensaje de... (Escribe como quieres que se vea el remitente de tu correo)';
 
 mail($para, $asunto, utf8_decode($message), $header);
