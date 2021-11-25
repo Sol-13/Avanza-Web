@@ -183,7 +183,6 @@ li:hover {
   text-align: center;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
-
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
@@ -191,10 +190,9 @@ li:hover {
   align-content: center;
   background-color: #000000;
   display: grid;
-  gap: 1rem;
   grid-auto-flow: dense;
   grid-auto-rows: 20rem;
-  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
   align-content: center;
   justify-content: center;
   align-items: center;
