@@ -26,21 +26,16 @@
 
             
    
-    <form style=" height: 65vh;
-    width: 35vw;
-    margin: auto;
-    background: rgba(0, 0, 0, 0.4);
-    padding: 10px 20px;
-    box-sizing: border-box;
-    margin-top: 40px;
-    border-radius: 7px;" , action="">
-        <h2>CONTACTO</h2>
-        <input  type="text" name="nombre" placeholder="Nombre">
-        <input  type="text" name="correo" placeholder="Correo">
-        <input  type="text" name="telefono" placeholder="Telefono">
-        <textarea name="mensaje" placeholder="Escriba aqui su mensaje"></textarea>
-        <input type="button" value="ENVIAR" id="boton"> <!--Falta enlace para mandar mail-->
-    </form>
+     <form action="enviar.php" method="post">
+        <input type="text" name="name" id="name" class="name" placeholder="NOMBRE">
+        <input type="text" name="mail" id="mail" class="email" placeholder="CORREO">
+        <input type="text" name="phone" id="subject" class="subject" placeholder="TELÉFONO">
+        <textarea name="message" class="message" placeholder="MENSAJE ... " id="message"></textarea>
+        <div class="clear"></div>
+            <div class="col-md-8"> 
+                <button type="submit" class="btn btn-primary">ENVIAR </button>
+</div>
+</form>
 
 
 </body>
