@@ -112,23 +112,14 @@ li:hover {
   justify-content: center;
   align-items: center;
   align-content: stretch;
-  flex-direction: row;
+  flex-direction: column-reverse;
 }
 
-.fyl {
+.fecha {
   font-family: "Raleway", sans-serif;
   width: auto;
-  font-size: 20px;
+  font-size: 30px;
   color: #000000;
-  background-color: #ffffff;
-}
-
-.distancias {
-  font-family: "Raleway", sans-serif;
-  width: auto;
-  font-size: 20px;
-  color: #000000;
-  background-color: #ffffff;
 }
 
 /**********ESTILOS DE SPONSORS*************/
@@ -224,8 +215,8 @@ li:hover {
   flex-wrap: nowrap;
   justify-content: space-between;
 }
+
 h2 {
-  font-family: Montserrat, sans-serif;
   font-size: 50px;
 }
 
@@ -269,4 +260,29 @@ span {
   font-size: 20px;
   font-weight: bold;
   color: black;
+}
+
+/*ESTILOS EN GALERIA*/
+.kit-ubicar {
+  margin: 20px 15px 20px 15px;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: row;
+}
+
+h3 {
+  color: #1eabf1;
+}
+
+.camiseta {
+  margin: 20px 15px 20px 15px;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: center;
+  height: 40vh;
+  width: 20vw;
 }
