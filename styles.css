@@ -116,14 +116,6 @@ li:hover {
   max-width: 100%;
 }
 
-.fecha {
-  font-family: "Raleway", sans-serif;
-  width: auto;
-  font-size: 50px;
-  font-weight: 900;
-  color: #000000;
-}
-
 /**********ESTILOS DE SPONSORS*************/
 .slider {
   width: 100%;
@@ -140,7 +132,7 @@ li:hover {
   list-style: none;
 }
 .slider img {
-  width: 70%;
+  width: 65%;
 }
 
 @keyframes cambio {
@@ -187,12 +179,13 @@ li:hover {
   text-align: center;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-content: center;
   height: 25vh;
   padding: 5rem;
   background-color: #000000;
   color: #ffffff;
+  flex-direction: row;
 }
 
 /********ICONOS DE LAS REDES SOCIALES***************/
