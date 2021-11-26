@@ -15,7 +15,7 @@ h1 {
 .item {
   color: #000000;
   text-decoration: none;
-  margin-right: 10px;
+
   display: inline-block;
 }
 header {
@@ -184,26 +184,15 @@ li:hover {
 .footer {
   display: flex;
   text-align: center;
-
-  font-family: "Montserrat", sans-serif;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
   align-content: center;
-
   height: 25vh;
-
   padding: 5rem;
   background-color: #000000;
   color: #ffffff;
-  /*display: grid;
-  grid-auto-rows: 20rem;
-  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  justify-items: start;*/
 }
 
 /********ICONOS DE LAS REDES SOCIALES***************/
@@ -211,38 +200,50 @@ li:hover {
   text-decoration: none;
   color: #007cba;
 }
-/*Cambiar esta class*/
 
-/*******INFORMACION********/
+/*******------------INFORMACION------------********/
 
+h3 {
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  color: #1eabf1;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
 .info {
+  width: 100vw;
+  font-size: 2rem;
   background-color: #007cba;
   height: auto;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
-
-h2 {
-  font-size: 50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .centrarInfo {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 1rem;
   color: #007cba;
-  font-size: 50px;
+  font-size: 2rem;
   display: flex;
   justify-content: center;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 .ubicarInfo {
+  margin-top: 3rem;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  align-content: space-between;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  flex-wrap: nowrap;
+  align-content: center;
+  flex-direction: row;
+  align-items: center;
 }
 
 .ubicarInfo2 {
@@ -255,10 +256,9 @@ h2 {
   font-weight: bold;
   color: rgb(50, 54, 57);
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
   align-content: center;
-  align-items: baseline;
 }
 
 span {
