@@ -277,10 +277,15 @@ h3 {
 }
 
 .camiseta {
-  margin: 20px 15px 20px 15px;
-  padding: 10px 5px;
+  margin: 10px 15px 10px 15px;
+  padding: 5px 10px;
   display: flex;
   justify-content: center;
   height: 20rem;
   width: 18rem;
+}
+
+#imgGaleria {
+  height: 100%;
+  width: 90%;
 }
