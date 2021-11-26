@@ -15,7 +15,6 @@ h1 {
 .item {
   color: #000000;
   text-decoration: none;
-
   display: inline-block;
 }
 header {
@@ -173,13 +172,15 @@ li:hover {
     margin-left: -300%;
   }
 }
+/*
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .slider,
   .slider ul,
   .slider img {
     height: 100vh;
   }
-}
+}*/
+
 /***************ESTILOS DEL FOOTER********************/
 .footer {
   display: flex;
@@ -205,6 +206,7 @@ li:hover {
 
 h3 {
   padding-top: 2rem;
+  padding-bottom: 2rem;
   display: flex;
   align-items: center;
   color: #1eabf1;
@@ -272,8 +274,6 @@ span {
 
 /*ESTILOS EN GALERIA*/
 .kit-ubicar {
-  margin: 20px 15px 20px 15px;
-  padding: 10px 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -291,6 +291,6 @@ h3 {
   padding: 10px 5px;
   display: flex;
   justify-content: center;
-  height: 40vh;
-  width: 20vw;
+  height: 20rem;
+  width: 18rem;
 }
