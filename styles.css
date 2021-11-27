@@ -117,19 +117,20 @@ li:hover {
 }
 
 /**********ESTILOS DE SPONSORS*************/
-#imgAjuste {
+#imgSignal {
   height: 200%;
   width: 200%;
   max-width: 50%;
   max-height: 50%;
 }
 
-#imagAjuste2 {
-  height: auto;
-  width: auto;
-  max-width: 175px;
-  max-height: 175px;
+/*#imgAjuste2 {
+  height: 400px;
+  width: 400px;
+  max-width: 50%;
+  max-height: 50%;
 }
+*/
 
 .slider {
   width: 100%;
@@ -203,6 +204,7 @@ li:hover {
 }
 
 /********ICONOS DE LAS REDES SOCIALES***************/
+/*agregar recuadro?*/
 .fab {
   text-decoration: none;
   color: #007cba;
@@ -232,7 +234,7 @@ h3 {
   justify-content: space-around;
 }
 
-.centrarInfo {
+/*.centrarInfo {
   margin-top: 1rem;
   color: #007cba;
   font-size: 2rem;
@@ -242,7 +244,7 @@ h3 {
   align-content: center;
   align-items: center;
   flex-direction: row;
-}
+}*/
 
 .ubicarInfo {
   margin-top: 3rem;
