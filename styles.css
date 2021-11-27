@@ -118,10 +118,10 @@ li:hover {
 
 /**********ESTILOS DE SPONSORS*************/
 #imgAjuste {
-  height: auto;
-  width: auto;
-  max-width: 50px;
-  max-height: 50px;
+  height: 200%;
+  width: 200%;
+  max-width: 50%;
+  max-height: 50%;
 }
 
 #imagAjuste2 {
