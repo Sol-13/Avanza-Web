@@ -8,27 +8,33 @@
     
     <link rel="stylesheet" type="text/css" href="contacto.css" />
 </head>
-<body class="fondo">
-    <header class="info">
-  
-        <img height="100px" width="100px" src="./assets/logoblanco.jpeg"/>
+<body >
+   
+    <header>
+     
+        <h2>CONTACTO</h2>
+     
+        <nav>
+
+        <input id="input2" type="checkbox" id="menu">
         
-       <nav class="aire">
-         
-           <ul><a class="item" href="index.html" target="_blank">INICIO</a></ul>
-           <ul> <a class="item" href="informacion.html" target="_blank">INFORMACION</a></ul> 
-           <ul> <a class="item" href="galeria.html" target="_blank">GALERIA</a></ul>
-         
+        <label for="menu"> ☰ </label>
+       
+        <ul>
+          <li> <a class="item" href="index.html" target="_blank">INICIO</a></li>
+          <li><a class="item" href="informacion.html" target="_blank">INFORMACION</a></li>
+          <li> <a class="item" href="galeria.html" target="_blank">GALERIA</a></li>
+       </ul>
+     
        </nav>
-      
-     </header>
     
+    </header>
 
             
    
      <form action="enviar.php" method="post">
         <input type="text" name="name" id="name" class="name" placeholder="NOMBRE">
-        <input type="text" name="mail" id="mail" class="email" placeholder="CORREO">
+        <input  type="text" name="mail" id="mail" class="email" placeholder="CORREO">
         <input type="text" name="phone" id="subject" class="subject" placeholder="TELÉFONO">
         <textarea name="message" class="message" placeholder="MENSAJE ... " id="message"></textarea>
         <div class="clear"></div>

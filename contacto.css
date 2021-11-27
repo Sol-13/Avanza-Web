@@ -1,8 +1,101 @@
-.fondo {
+/*.fondo {
   background-image: url(./assets/running2.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
   margin: 0;
+}*/
+
+h1 {
+  margin-top: auto;
+  font-size: 50px;
+}
+
+.item {
+  color: #000000;
+  text-decoration: none;
+  display: inline-block;
+}
+
+header {
+  width: 100%;
+  background-color: #007cba;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  align-items: center;
+}
+
+header ul {
+  display: none;
+}
+
+header h1 {
+  line-height: 8vh;
+  margin-left: 0.5em;
+}
+
+.menu-button {
+  display: inline-block;
+  margin: 1vh;
+  height: 6vh;
+  width: 6vh;
+  border: 1px solid black;
+  line-height: 6vh;
+  text-align: center;
+}
+
+#input2:checked ~ ul {
+  display: block;
+}
+
+#input2 {
+  display: none;
+}
+
+label {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+}
+
+/* Estilo del boton cuando se pasa el mouse por encima*/
+label:hover {
+  background: #1eabf1;
+}
+
+/* Estilo del boton cuando el menú está expandido*/
+#input2:checked ~ label {
+  background: #1eabf1;
+}
+
+ul {
+  margin-top: 0;
+  padding: 0;
+  width: 200px;
+}
+
+li {
+  display: block;
+  /*background: #1eabf1;*/
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  /* border-bottom: 1px solid #0a5175;*/
+}
+
+/*Estilo cuando el mouse pasa encima de cada link del menu*/
+li:hover {
+  filter: brightness(110%);
 }
 
 .info {
@@ -21,8 +114,8 @@
 }
 form {
   display: flex;
-  height: 20rem;
-  width: 35rem;
+  height: 20%;
+  width: 30%;
   margin: auto;
   background: rgba(0, 0, 0, 0.4);
   padding: 10px 20px;
