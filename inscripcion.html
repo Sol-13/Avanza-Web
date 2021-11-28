@@ -10,21 +10,14 @@
 <body >
    
     <header>
-     
-        <h2>INSCRIPCION</h2>
+        <img height="100px" width="100px" src="./assets/logonegro.jpeg"/>
+        <h3>INSCRIPCION</h3>
      
         <nav>
-
-        <input id="input2" type="checkbox" id="menu">
-        
-        <label for="menu"> ☰ </label>
-       
         <ul>
           <li> <a class="item" href="index.html" target="_blank">INICIO</a></li>
-          <li><a class="item" href="informacion.html" target="_blank">INFORMACION</a></li>
-          <li> <a class="item" href="galeria.html" target="_blank">GALERIA</a></li>
        </ul>
-     
+ 
        </nav>
     
     </header>
@@ -32,10 +25,15 @@
             
    
      <form action="enviar.php" method="post">
-        <input type="text" name="name" id="name" class="name" placeholder="NOMBRE">
-        <input  type="text" name="mail" id="mail" class="email" placeholder="CORREO">
-        <input type="text" name="phone" id="subject" class="subject" placeholder="TELÉFONO">
-        <textarea name="message" class="message" placeholder="MENSAJE ... " id="message"></textarea>
+        <input type="text" name="name" id="name" class="name" placeholder="NOMBRE Y APELLIDO" required>
+        <input type="text" name="edad" id="edad" class="edad" placeholder="EDAD" required>
+        <input type="text" name="dni" id="dni" class="dni" placeholder="DNI" required>
+        <input type="text" name="fecha" id="fecha" class="fecha" placeholder="FECHA DE NACIMIENTO" required>
+        <input type="text" name="team" id="team" class="team" placeholder="RUNNING TEAM" required>
+        <input  type="text" name="mail" id="mail" class="email" placeholder="CORREO" required>
+        <input type="text" name="phone" id="subject" class="subject" placeholder="TELÉFONO" required>
+    
+        <textarea name="message" class="message" placeholder="MENSAJE ... " id="message"></textarea required>
         <div class="clear"></div>
             <div class="col-md-8"> 
                 <button type="submit" class="btn btn-primary">ENVIAR </button>

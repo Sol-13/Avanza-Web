@@ -5,12 +5,14 @@
   margin: 0;
 }*/
 
-h1 {
-  margin-top: auto;
-  font-size: 50px;
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@0,200;0,300;0,500;0,600;1,100;1,200;1,300;1,500&family=Raleway:ital,wght@0,400;0,500;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
 }
 
-.item {
+/*.item {
   color: #000000;
   text-decoration: none;
   display: inline-block;
@@ -31,7 +33,7 @@ header ul {
   display: none;
 }
 
-header h1 {
+header h2 {
   line-height: 8vh;
   margin-left: 0.5em;
 }
@@ -66,15 +68,15 @@ label {
   font-weight: bold;
   text-align: center;
   user-select: none;
-}
+}*/
 
 /* Estilo del boton cuando se pasa el mouse por encima*/
-label:hover {
+/*label:hover {
   background: #1eabf1;
 }
 
 /* Estilo del boton cuando el menú está expandido*/
-#input2:checked ~ label {
+/*#input2:checked ~ label {
   background: #1eabf1;
 }
 
@@ -87,17 +89,42 @@ ul {
 li {
   display: block;
   /*background: #1eabf1;*/
-  margin: 0;
+/*margin: 0;
   padding: 10px;
   list-style: none;
-  /* border-bottom: 1px solid #0a5175;*/
+  /* border-bottom: 1px solid #0a5175;
 }
 
 /*Estilo cuando el mouse pasa encima de cada link del menu*/
-li:hover {
+/*li:hover {
   filter: brightness(110%);
+}*/
+
+h3 {
+  font-size: 50px;
+}
+a {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  /* margin-bottom: 20px;*/
+  text-decoration: none;
 }
 
+header {
+  width: 100%;
+  height: auto;
+  background-color: #007cba;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+li {
+  list-style: none;
+}
 .info {
   width: 100%;
   background-color: #007cba;
@@ -127,15 +154,6 @@ form {
   align-content: space-around;
   justify-content: center;
   align-items: center;
-}
-
-h2,
-a {
-  color: #fff;
-  text-align: center;
-  margin: 0;
-  margin-bottom: 20px;
-  text-decoration: none;
 }
 
 input,
