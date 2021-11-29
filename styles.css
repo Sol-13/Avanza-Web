@@ -195,14 +195,14 @@ li:hover {
   display: flex;
   text-align: center;
   justify-content: space-around;
-  align-items: center;
+  /* align-items: center; */
   flex-wrap: wrap;
   align-content: center;
-  height: 25vh;
+  /* height: 25vh; */
   padding: 5rem;
   background-color: #000000;
   color: #ffffff;
-  flex-direction: row;
+  /* flex-direction: row;*/
 }
 
 /********ICONOS DE LAS REDES SOCIALES***************/
@@ -210,6 +210,12 @@ li:hover {
 .fab {
   text-decoration: none;
   color: #007cba;
+}
+
+#contacto {
+  margin: 10px;
+  padding: 10px;
+  font-size: 25px;
 }
 
 /*******------------INFORMACION------------********/
