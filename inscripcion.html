@@ -10,7 +10,7 @@
 <body >
    
     <header>
-        <img height="100px" width="100px" src="./assets/logonegro.jpeg"/>
+        <img height="100px" width="100px" src="./assets/logo-avanza.png"/>
         <h3>INSCRIPCION</h3>
      
         <nav>
@@ -30,10 +30,22 @@
         <input type="text" name="dni" id="dni" class="dni" placeholder="DNI" required>
         <input type="text" name="fecha" id="fecha" class="fecha" placeholder="FECHA DE NACIMIENTO" required>
         <input type="text" name="team" id="team" class="team" placeholder="RUNNING TEAM" required>
-        <input  type="text" name="mail" id="mail" class="email" placeholder="CORREO" required>
         <input type="text" name="phone" id="subject" class="subject" placeholder="TELÉFONO" required>
-    
-        <textarea name="message" class="message" placeholder="MENSAJE ... " id="message"></textarea required>
+        <input  type="text" name="mail" id="mail" class="email" placeholder="CORREO" required>
+        
+      
+        <div id="distancias">
+           <h4>Distancias</h4>
+            <input checked type="radio" name="terminos" value="yes"> 20k
+            <input type="radio" name="terminos" value="no">20k postas (10k c/u)
+            <input type="radio" name="terminos" value="maybe">3k participativos.
+            
+         </div> 
+
+         <input  type="text" name="posta" id="posta" class="posta" placeholder="POSTA (en el caso de haber elegido 'postas')">
+
+      
+         <textarea name="message" class="message" placeholder="MENSAJE ... " id="message"></textarea required>
         <div class="clear"></div>
             <div class="col-md-8"> 
                 <button type="submit" class="btn btn-primary">ENVIAR </button>

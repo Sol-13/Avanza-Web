@@ -168,3 +168,9 @@ textarea {
   box-sizing: border-box;
   border-color: #007cba;
 }
+
+#distancias {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
