@@ -224,14 +224,19 @@ h3 {
   font-size: 30px;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  display: flex;
-  align-items: center;
+  margin-left: 10px;
   color: #1eabf1;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: center;
 }
+
+a {
+  font-family: "Raleway", sans-serif;
+  color: #007cba;
+  display: flex;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;
+}
+
 .info {
   width: 100%;
   /*font-size: 2rem;*/
@@ -258,34 +263,40 @@ h3 {
 .ubicarInfo {
   margin-top: 3rem;
   display: flex;
-  justify-content: center;
-  flex-wrap: nowrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
   align-content: center;
   flex-direction: row;
   align-items: center;
 }
 
-.ubicarInfo2 {
+/*.ubicarInfo2 {
   display: flex;
-  justify-content: center;
-}
+  justify-content: left;
+}*/
 
 .resaltar {
   display: flex;
   font-weight: bold;
   color: rgb(50, 54, 57);
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-content: center;
+  flex-direction: column;
 }
 
 span {
   display: flex;
   align-items: center;
-  margin: 20px;
-  font-size: 20px;
+  margin: 10px;
+  font-size: 18px;
   font-weight: bold;
   color: black;
+}
+
+p,
+ul {
+  margin-left: 10px;
 }
 
 /*ESTILOS EN GALERIA*/
