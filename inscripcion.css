@@ -257,6 +257,10 @@ textarea {
   color: #007cba;
 }
 
+h6 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
 /*#ordenar {
   display: flex;
   justify-content: center;
