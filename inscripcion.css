@@ -261,6 +261,14 @@ h6 {
   margin-top: 0;
   margin-bottom: 10px;
 }
+
+#agregar {
+  margin-top: 20px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /*#ordenar {
   display: flex;
   justify-content: center;
