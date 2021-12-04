@@ -21,24 +21,27 @@
        </nav>
     
     </header>
- <!---->  <div id="agregar"><h5>Podes abonar la inscripcion al cbu: 0000000000000000000000</h5></div>
-          
+ <!---->  <div id="agregar"><h5>Abono de inscripcion: </h5></div>
  <div id="agregar">
-              
-        <label for="myfile">Agregar imagen del pago: </label>
-         <input type="file" id="myfile" name="myfile">
-         
-        
-        </div> 
-   
+     <ul>
+    <li>Titular de cuenta: MAURO NICOLAS,BINNIER. </li>
+    <li>Número de Cuenta: CA $ 6176-518819/9. </li>
+    <li>CUIL/CUIT: 20-35945610-8.</li> 
+    <li>CBU: 0140366203617651881990. </li>
+    <li> Alias: ORDEN.MULITA.PISADA.</li>
+  <label id="agregar" for="myfile">Agregar imagen del pago: </label>
+  <input id="agregar" type="file" id="myfile" name="myfile">
+</ul>
+</div>
+ 
      <form action="enviar.php" method="post">
-        <input type="text" name="name" id="name" class="name" placeholder="NOMBRE Y APELLIDO" required>
+     <input type="text" name="name" id="name" class="name" placeholder="NOMBRE Y APELLIDO" required>
         <input type="text" name="edad" id="edad" class="edad" placeholder="EDAD" required>
-        <input type="text" name="dni" id="dni" class="dni" placeholder="DNI" required>
-        <input type="text" name="fecha" id="fecha" class="fecha" placeholder="FECHA DE NACIMIENTO" required>
+        <input type="number" name="dni" id="dni" class="dni" placeholder="DNI" required>
+        <input type="date" name="fecha" id="fecha" class="fecha" placeholder="FECHA DE NACIMIENTO" required>
         <input type="text" name="team" id="team" class="team" placeholder="RUNNING TEAM" required>
-        <input type="text" name="phone" id="subject" class="subject" placeholder="TELÉFONO" required>
-        <input  type="text" name="mail" id="mail" class="email" placeholder="CORREO" required>
+       <input type="phone" name="phone" id="subject" class="subject" placeholder="TELÉFONO" required>
+      <input  type="mail" name="mail" id="mail" class="email" placeholder="CORREO" required>
 
 <div class="wrapper">    
     <div id="radio-buttons">
@@ -66,17 +69,7 @@
         <h6>*Cada participante debera consignar el mismo nombre de posta.</h6> 
     </div>
   
-      
-  <!--<div id="distancias">
-            
-           <h4>Distancias</h4>
-            <input checked type="radio" name="terminos" value="yes"> 20k
-            <input type="radio" name="terminos" value="no">20k postas (10k c/u)
-            <input type="radio" name="terminos" value="maybe">3k participativos.
-            
-         </div> 
-
-         -->  
+  
 
          <input  type="text" name="posta" id="posta" class="posta" placeholder="POSTA (en el caso de haber elegido 'postas')">
        
