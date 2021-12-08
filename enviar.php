@@ -25,9 +25,27 @@ $archivo = $_FILES['adjunto'];
 
 if ($Nombre=='' || $Email=='' || $Mensaje==''){ 
 
+<<<<<<< HEAD
 echo "<script>alert('Los campos marcados con * son obligatorios');location.href ='javascript:history.back()';</script>";
 
 }else{
+=======
+$message = "Este mensaje fue enviado por: " . $name . " \r\n";
+$message .= "Su e-mail es: " . $mail . " \r\n";
+$message .= "Teléfono de contacto: " . $phone . " \r\n";
+$message .= "Edad: " .$edad. " \r\n";
+$message.="DNI: " . $dni . "\r\n";
+$message.="Fecha de nacimiento: " . $_POST['fecha'] . " \r\n";
+ $message.="Running Team: " . $_POST['team'] . " \r\n";
+$message.= "Distancia:" . $_POST['example'] . " \r\n";
+    
+$message.="Posta:" . $_POST['posta'] . " \r\n";
+$message .= "Mensaje: " . $_POST['message'] . " \r\n";
+$message .= "Enviado el: " . date('d/m/Y', time());
+
+$para = 'solealvar13@gmail.com'; /*pedir mail de avanza*/
+$asunto = "Mensaje de: " . $name . " \r\n" ;
+>>>>>>> e58fc09d8b43a6479e16b5a7531a17d928da7852
 
 
     require 'phpmailer/class.phpmailer.php';
