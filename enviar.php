@@ -18,7 +18,8 @@ $message .= "Su e-mail es: " . $mail . " \r\n";
 $message .= "Teléfono de contacto: " . $phone . " \r\n";
 $message .= "Edad: " .$edad. " \r\n";
 $message.="DNI: " . $dni . "\r\n";
- 
+$message.="Fecha de nacimiento: " . $_POST['fecha'] . " \r\n";
+ $message.="Running Team: " . $_POST['team'] . " \r\n";
 $message.= "Distancia:" . $_POST['example'] . " \r\n";
     
 $message.="Posta:" . $_POST['posta'] . " \r\n";
